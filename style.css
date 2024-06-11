@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#AllInBody {
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 238, 255, 0.842), rgba(255, 0, 149, 0.651)), url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  
+  #MusicDesc h2 {
+    font-size: 2rem;
+    color: #fc0093;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  #MusicDesc p {
+    font-weight: 900;
+    
+    color: white;
+  }
+  
+  #MusicImg img {
+    border-radius: 1%;
+    width: 300px;
+    height: auto;
+    border: 5px solid #ff006a;
+  }
+  
+  #MusicControls .control i {
+    font-size: 1.1rem;
+    color: #ff004c;
+    padding: 15px;
+    border-radius: 100%;
+    border: 2px solid #ff0080;
+  }
+  
+  #MusicControls .control i:hover {
+    background: #ff0080;
+    color: white;
+  }
+  
+
+  
+
+  
+
+
+
